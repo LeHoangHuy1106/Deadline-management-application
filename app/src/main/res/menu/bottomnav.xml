@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemAdd"
+        android:enabled="true"
+        android:icon="@drawable/btnadd"
+
+        app:showAsAction="always" />
+    <item
+
+        android:id="@+id/itemList"
+        android:enabled="true"
+        android:icon="@drawable/iconlich"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemfilter"
+        android:enabled="true"
+        android:icon="@drawable/iconthongke"
+        app:showAsAction="always" />
+</menu>
